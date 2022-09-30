@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img src="imagenes/logo.png" class="logo">
+
+            <input class="input-new-word" id="input-textarea-new-word" required placeholder="Escriba aqui la palabra que desea agregar">
+        
+        <div id= "div-desaparece" class="btn-home">
+                <!--Buton/Input-->
+                <input class="btn-save-add" type="submit" value="Guardar y agregar" id="start-game-new-word" onclick="location.href = 'horca.html'">
+                <input class="btn-cancel" type="submit" value="Cancelar" id="cancel-new-word" onclick="location.href = 'index.html'">      
+        </div>
+              
+        <!--JavaScript-->
+        <script src="horca.js"></script>
+        <script src="canvas.js"></script>
+</body>
+
+</html>

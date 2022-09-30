@@ -1,0 +1,209 @@
+body{
+    width: 1440px;
+    height: 1024px;
+    background: #f9f9f9;
+}
+
+
+/*Estilo del boton que inicia el juego*/
+.btn-start{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 40rem;
+    top: 25rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background: rgb(0, 174, 255);
+    border-style: double;
+    border-color: white;
+    border-width: 1rem;  
+    cursor: pointer; 
+    transition: 1.5s all;
+}
+
+.btn-start:hover{
+    border-color: black;
+    color: black;
+    background: white;
+    
+}
+
+/*Estilo del boton para agregar una nueva palabra*/
+.btn-new-word{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 40rem;
+    top: 30rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background: rgb(0, 174, 255);
+    border-style: double;
+    border-color: white;
+    border-width: 1rem; 
+    cursor: pointer;  
+    transition: 1.5s all;
+}
+
+.btn-new-word:hover{
+    border-color: black;
+    color: black;
+    background: white;
+}
+
+
+/*Estilo del boton que guarda y agrega la nueva palabra*/
+.btn-save-add{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 20rem;
+    top: 33rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background: rgb(0, 174, 255);
+    border-style: double;
+    border-color: black;
+    border-width: 1rem; 
+    cursor: pointer;  
+    transition: 1.5s all;
+}
+
+.btn-save-add:hover{
+    transform: scale(1.25);
+    width: 22rem;
+    height: 5rem;
+    border-color: black;
+    color: black;
+    background: white; 
+    border-radius: 3rem;
+}
+
+/*Estilo del boton cancelar*/
+.btn-cancel{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50rem;
+    top: 33rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background: rgb(0, 174, 255);
+    border-style: double;
+    border-color: black;
+    border-width: 1rem;
+    cursor: pointer;  
+    transition: 1.5s all;
+
+}
+
+.btn-cancel:hover{
+    transform: scale(1.25);
+    border-color: black;
+    color: black;
+    background: white; 
+    border-radius: 3rem;   
+}
+
+/*Estilo del input (lugar donde se escribe) para ingresar una nueva palabra*/
+.input-new-word{
+    width: 25rem;
+    height: 3rem;
+    position: absolute;
+    left: 31rem;
+    top: 9rem;
+    background: #ffffff; 
+    text-align: center; 
+    color: rgb(0, 5, 8);  
+    font-size: 1.2rem; 
+    font-weight: bolder;
+    border-radius: 13rem;  
+    cursor:text;
+    transition: 1.5s all;
+}
+
+.input-new-word:hover{
+    background: rgb(71, 157, 231);
+}
+
+/*Estilo del boton para iniciar un nuevo juego*/
+.btn-new-start{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 20rem;
+    top: 39rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background: rgb(0, 174, 255);
+    border-style: double;
+    border-color: black;
+    border-width: 1rem; 
+    cursor: pointer;  
+    transition: 1.5s all;
+}
+
+.btn-new-start:hover{
+    transform: scale(1.25);
+    border-color: black;
+    color: black;
+    background: white; 
+    border-radius: 3rem; 
+}
+
+/*Estilo del boton para cancelar el juego*/
+.btn-cancel-horca{
+    width: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    position: absolute;
+    left: 50rem;
+    top: 39rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: aliceblue;
+    background: rgb(0, 174, 255);
+    border-style: double;
+    border-color: black;
+    border-width: 1rem;
+    cursor: pointer;  
+    transition: 1.5s all;
+}
+
+.btn-cancel-horca:hover{
+    transform: scale(1.25);
+    border-color: black;
+    color: black;
+    background: white; 
+    border-radius: 3rem; 
+}
+
+/*Estilo del canvas*/
+.canvas{
+    position: absolute;
+    width: 60rem;
+    height: 30rem;
+    border-radius: 50%;
+    background-image: url(https://cdn.pocket-lint.com/r/s/970x/assets/images/142413-apps-feature-art-and-science-collide-the-best-in-modern-space-art-image1-iha6vzu3wk-jpg.webp?v1);
+    top: 5rem;
+    left: 15rem; 
+    transition: 2s all;
+} 
+
